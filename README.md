@@ -1,4 +1,4 @@
-#### Weather Analytics for CS570 Project
+# Weather Analytics for CS570 Project
 
 ### Members:
-## Seung Kim, Venkatesh Manohar, Ravinder Saggu
+#### Seung Kim, Venkatesh Manohar, Ravinder Saggu
