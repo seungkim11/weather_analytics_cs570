@@ -1,0 +1,17 @@
+<section ng-init='allWeathers()'>
+	
+	<h1>
+		Weathers in 7 Majors Cities of the U.S.
+	</h1>
+	<br><br><br>
+	
+
+	<div ng-repeat="char in chartConfigs" style="min-width: 310px; height: 400px; margin: 0 auto">
+		<highchart id="chart1" config="char"></highchart>	
+		<hr>
+	</div>
+	
+	
+	
+
+</section>

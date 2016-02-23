@@ -1,0 +1,24 @@
+{
+  "name": "cs570",
+  "description": "weatherclient",
+  "main": "server.js",
+  "authors": [
+    "Sam"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "highcharts": "~4.2.3",
+    "highcharts-ng": "~0.0.11"
+  }
+}

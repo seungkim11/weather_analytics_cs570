@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org">
+<head>
+  <title>Weather Info</title> 
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+  
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <ul class="nav navbar-nav">
+      <li><a href="/#!/">CS570 Weather Analytics</a></li>
+      <li><a href="/#/weather/">Show U.S</a></li>
+      <li><a href="/#/cities">Search Cities</a></li>
+    </ul>
+  </nav>
+  <br><br><br><br>
+  
+  <!-- Render AngularJS views  -->
+  <section style="padding: 0px 10px 10px 10px" ng-view></section>
+
+ 
+  
+  <!-- Load local libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.min.js"></script>
+  
+  <script src="http://code.highcharts.com/highcharts.src.js"></script>
+  <script src="bower_components/highcharts-ng/dist/highcharts-ng.js"></script>  
+
+
+  
+  <!-- Load the weather module -->
+  <script type="text/javascript" src="/weather/weather.client.module.js"></script>
+  <script type="text/javascript" src="/weather/controllers/weather.client.controller.js"></script>
+  <script type="text/javascript" src="/weather/services/weather.client.service.js"></script>
+  <script type="text/javascript" src="/weather/config/weather.client.routes.js"></script>
+
+  <!-- Bootstrap AngularJS application -->
+  <script type="text/javascript" src="/application.js"></script>
+</body>
+</html>
