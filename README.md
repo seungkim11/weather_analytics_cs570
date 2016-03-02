@@ -4,7 +4,7 @@
 #### Seung Kim, Venkatesh Manohar, Ravinder Saggu
 
 ### Project Demo (No longer available)
-Web Service: http://54.183.234.109:3000/
+Web Service: http://54.183.234.109:3000/  
 RMI data: http://52.53.219.101:5700/weathers
 
 ### Yahoo Weather API
